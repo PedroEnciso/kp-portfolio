@@ -3,6 +3,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Kulim Park", sans-serif;
+
+  /* color variables */
+  --primary: #d8baa9;
+  --secondary: #e7e5d9;
+  --text: #a7a9ab;
+  --light-text: rgb(239, 239, 239);
 }
 
 a {
