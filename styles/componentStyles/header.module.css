@@ -1,3 +1,13 @@
 .header {
   margin-top: 1.25rem;
 }
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  width: 100%;
+}

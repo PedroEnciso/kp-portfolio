@@ -1,4 +1,9 @@
-.container {
+.headerContainer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contentContainer {
   width: 90%;
   margin: 0 auto;
 }

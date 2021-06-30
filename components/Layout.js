@@ -6,16 +6,22 @@ import styles from "../styles/componentStyles/layout.module.css";
 
 export default function Layout({ children, home, setActive, active }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <meta
           name="description"
           content="This is a portfolio of Kalea Vizmanos' work in graphic design and photography."
         />
       </Head>
-      <Header home={home} />
-      <Nav setActive={setActive} active={active} />
-      <main>{children}</main>
+      <div className={styles.headerContainer}>
+        {" "}
+        <Header home={home} />
+      </div>
+      <div className={styles.contentContainer}>
+        <Nav setActive={setActive} active={active} />
+        <main>{children}</main>
+      </div>
+
       <Footer />
     </div>
   );

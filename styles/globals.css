@@ -8,7 +8,7 @@ body {
   --primary: #d8baa9;
   --secondary: #e7e5d9;
   --text: #a7a9ab;
-  --light-text: rgb(239, 239, 239);
+  --light: rgb(239, 239, 239);
 }
 
 a {

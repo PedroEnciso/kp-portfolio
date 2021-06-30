@@ -21,7 +21,7 @@
 }
 
 .button:hover {
-  background-color: var(--light-text);
+  background-color: var(--light);
 }
 
 .activeButton {
@@ -35,8 +35,8 @@
 }
 
 .hr {
-  width: 90%;
-  background-color: var(--light-text);
+  width: 100%;
+  background-color: var(--light);
   border: none;
   height: 1px;
   margin: 1rem auto 0;

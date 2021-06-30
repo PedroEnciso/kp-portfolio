@@ -7,8 +7,8 @@ export default function Header({ home }) {
     <header className={styles.header}>
       {home ? (
         <>
-          <div>
-            <Image className={styles.name} src={name} alt="Kalea Vizmanos" />
+          <div className={styles.imageContainer}>
+            <Image src={name} alt="Kalea Vizmanos." />
           </div>
         </>
       ) : (
