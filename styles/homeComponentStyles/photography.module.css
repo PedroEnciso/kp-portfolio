@@ -1,0 +1,43 @@
+.container {
+  margin-top: 3rem;
+  min-height: 50vh;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  grid-gap: 2.5rem;
+}
+
+.projectContainer {
+  display: flex;
+}
+
+.projectName {
+  writing-mode: vertical-lr;
+  color: var(--text);
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  transform: rotate(180deg);
+  overflow: visible !important;
+}
+
+.imageContainer {
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.4s;
+}
+
+.imageContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.coverImage {
+  object-fit: cover;
+  border-radius: 10px;
+}
