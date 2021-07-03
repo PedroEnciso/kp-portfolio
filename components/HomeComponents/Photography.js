@@ -1,4 +1,4 @@
-import styles from "../../styles/homeComponentStyles/photography.module.css";
+import styles from "../../styles/componentStyles/homeComponent.module.css";
 import { photographyData } from "../../data/photographyData";
 import Image from "next/image";
 
