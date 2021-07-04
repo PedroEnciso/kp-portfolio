@@ -10,6 +10,18 @@
   grid-gap: 2.5rem;
 }
 
+@media only screen and (min-width: 600px) {
+  .projectGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .projectGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .projectContainer {
   display: flex;
 }
